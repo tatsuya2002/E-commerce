@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shepo</title>
+    <link rel="icon" href="./assets/img/logo/shopee-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./index.html">
+</head>
+<body>
+    <div class="app">
+        <!--Header-->
+        <header class="header-login">
+            <div class="grid wide">
+                <div class="header__contain">
+                    <div class="header__contain-login">
+                        <div class="header__logo">
+                            <a href="./index.html" class="header__logo-link">
+                                <img src="./assets/img/logo/logo-full-orange.png" class="header__logo-img-login">
+                            </a>
+                        </div>
+                        <span class="header__label-login">Thanh Toán</span>
+                    </div>
+                    <a href="#" class="header__help">Bạn cần giúp đỡ?</a>
+                </div>
+            </div>
+        </header>
+        <!--Container-->
+            <div class="container-payment">
+                <div class="grid wide">
+                    <div class="row sm-gutter">
+                        <div class="col l-12">
+                            <div class="payment-infor-form">
+                                <div class="payment-address-form payment-form--separate">
+                                    <div class="payment-header-form">
+                                        <h3 class="payment-heading-form">Địa Chỉ Nhận Hàng</h3>
+                                    </div>
+                                    <div class="payment-form__form">
+                                        <div class="auth-form__group">
+                                            <input type="text" placeholder="Họ và tên" class="auth-form__input">
+                                        </div>
+                                        <div class="auth-form__group">
+                                            <input type="text" placeholder="Số điện thoại" class="auth-form__input">
+                                        </div>
+                                        <div class="auth-form__group">
+                                            <input type="text" placeholder="Địa chỉ cụ thể" class="auth-form__input">
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="payment-method-form">
+                                    <div class="payment-header-form">
+                                        <h3 class="payment-heading-form">Phương thức thanh toán</h3>
+                                    </div>
+                                    <div class="payment-form__form">
+                                        <div class="payment-form__tick">
+                                            <div class="payment-method__tick">
+                                                <input type="checkbox" class="payment-method-checkbox">
+                                                <div class="payment-method-checkbox-name">
+                                                    Thanh toán khi nhận hàng
+                                                </div> 
+                                            </div> 
+                                        </div>
+                                        <div class="payment-form__tick">
+                                            <div class="payment-method__tick">
+                                                <input type="checkbox" class="payment-method-checkbox">
+                                                <div class="payment-method-checkbox-name">
+                                                    Chuyển khoản ngân hàng
+                                                </div> 
+                                            </div> 
+                                        </div>
+                                        <!-- <div class="auth-form__group">
+                                            <input type="" placeholder="Thanh toán khi nhận hàng" class="payment-form__tick">
+                                        </div>
+                                        <div class="auth-form__group">
+                                            <input type="" placeholder="Chuyển khoản ngân hàng" class="payment-form__tick">
+                                        </div> -->
+                                        <div class="btn-confirm btn--primary">Xác Nhận</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment-product-site">
+                                <div class="payment-product-site-header">
+                                    <div class="payment-product-site-heading-name1">
+                                        Sản Phẩm
+                                    </div>
+                                    <div class="payment-product-site-heading-name2">
+                                        <div class="payment-site-list">Đơn Giá</div>
+                                        <div class="payment-site-list">Số Lượng</div>
+                                        <div class="payment-site-list">Thành tiền</div> 
+                                    </div>
+                                    
+                                </div>
+                                <div class="payment-product-site-container">
+                                    <div class="payment-product-site-container__name1">
+                                        <img src="https://prices.vn/storage/photo/product/tui-xach-nu-tui-deo-cheo-dep-ht01-mau-hong-xanh-cam-trang-kich-thuoc-23cm-thoi-trang-cong-so.png" alt="" class="payment-product-site-container__img">
+                                        <div class="payment-product-site-container__name">
+                                            Túi xách nữ đeo chéo thời trang
+                                        </div>
+                                    </div>
+                                    <div class="payment-product-site-container__name2">
+                                        <div class="payment-product-site-container__price">
+                                            <div class="product-cart-list-price">đ</div>
+                                            79.000
+                                        </div>
+                                        <div class="payment-product-site-container__quantity">
+                                            1
+                                        </div>
+                                        <div class="payment-product-site-container__sum">
+                                            <div class="product-cart-list-price">đ</div>
+                                            79.000
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payment-product-site-footer">
+                                    <div class="payment-product-site-footer-category">
+                                        <div class="payment-product-site-footer-category-name">Tổng tiền sản phẩm:</div>
+                                        <div class="payment-product-site-footer-category-name">Phí vận chuyển:</div>
+                                        <div class="payment-product-site-footer-category-name">Tổng thanh toán:</div>
+                                    </div>
+                                    <div class="payment-product-site-footer-price">
+                                        <div class="payment-product-site-footer-price-num">
+                                            <div class="product-cart-list-price product-cart-list-price-sum">đ</div>
+                                            <div class="product-cart-list-price-sum-num">79.000</div>
+                                        </div>
+                                        <div class="payment-product-site-footer-price-num">
+                                            <div class="product-cart-list-price product-cart-list-price-sum">đ</div>
+                                            <div class="product-cart-list-price-sum-num">20.000</div>
+                                        </div>
+                                        <div class="payment-product-site-footer-price-num">
+                                            <div class="product-cart-list-price product-cart-list-price-sum">đ</div>
+                                            <div class="product-cart-list-price-sum-num">99.000</div>
+                                        </div>
+                                    </div>
+                                    <div class="btn payment-btn">Đặt hàng</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-12">
+                            <div class="payment-product">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- main footer -->
+            <div class="main-footer">
+                <div class="grid wide">
+                    <div class="row sm-gutter main-footer-info">
+                        <div class="col l-2-4 m-4 ">
+                            <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                            <ul class="footer-list">
+                                <li>
+                                    <a href="#" class="footer-item-link">Trung Tâm Trợ Giúp</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Hướng Dẫn Mua Hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Hướng Dẫn Bán Hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Thanh Toán</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Vận Chuyển</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Trả Hàng & Hoàn Tiền</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Chăm Sóc Khách Hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Chính Sách Bảo Mật</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 ">
+                            <h3 class="footer__heading">VỀ SHOPEE</h3>
+                            <ul class="footer-list">
+                                <li>
+                                    <a href="#" class="footer-item-link">Giới Thiệu Về Shepo</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Tuyển Dụng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Điều Khoản Shepo</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Chính Sách Bảo Mật</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Kênh Người Bán</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Liên Hệ Với Truyền Thông</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4  pay-and-ship">
+                            <div>
+                                <h3 class="footer__heading">THANH TOÁN</h3>
+                                <div class="footer-sale-ship">
+                                    <img src="./assets/img/pay/1.PNG" class="footer-item-sale-ship">
+                                    <img src="./assets/img/pay/2.PNG" class="footer-item-sale-ship">
+                                    <img src="./assets/img/pay/3.PNG" class="footer-item-sale-ship">
+                                    <img src="./assets/img/pay/4.PNG" class="footer-item-sale-ship">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 ">
+                            <h3 class="footer__heading">THEO DÕI CHÚNG TÔI</h3>
+                            <ul class="footer-list">
+                                <li>
+                                    <a href="#" class="footer-item-link footer-item-link-fb">
+                                        <i class="footer-item-icon fa-brands fa-facebook"></i>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link footer-item-link-is">
+                                        <i class="footer-item-icon fab fa-instagram-square"></i>
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link footer-item-link-li">
+                                        <i class="footer-item-icon fa-brands fa-linkedin"></i>
+                                        LinkedIn
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-8 ">
+                            <h3 class="footer__heading">TẢI ỨNG DỤNG SHEPO</h3>
+                            <div class="footer-download">
+                                <a href="#" class="footer-download-link">
+                                    <img src="./assets/img/qr/qr-code.png" class="footer-download-qr">
+                                </a>
+                                <div class="footer-download-app">
+                                    <a href="#" class="footer-download-link">
+                                        <img src="./assets/img/qr/gg-play.png" class="footer-download-app-img">
+                                    </a>
+                                    <a href="#" class="footer-download-link">
+                                        <img src="./assets/img/qr/app-store.png" class="footer-download-app-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
