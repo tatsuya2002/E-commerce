@@ -302,7 +302,7 @@ border-color: red green blue yellow */
     background-color: var(--primary-color);
     padding: 0;
 }
--form {
+.auth-form {
     width: 400px;
     background-color: var(--white-color);
     border-radius: 2px;
