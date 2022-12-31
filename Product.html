@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shepo</title>
+    <link rel="icon" href="./assets/img/logo/shopee-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./index.html">
+</head>
+<body>
+    <div class="app">
+        <!-- header -->
+        <header class="header">
+            <div class="grid wide">
+                <!-- navbar -->
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item header__nav-item--hover header__nav-item--separate">Kênh Người Bán</li>
+                        <li class="header__nav-item header__nav-item--hover header__nav-item--separate">Trở thành Người bán Shepo</li>
+                        <!-- qr code -->
+                        <div class="header__qrcode">
+                            <img src="./assets/img/qr/qr-code.png" class="header__qr">
+                            <div class="header__apps">
+                                <a href="#" class="header__app-link">
+                                    <img src="./assets/img/qr/app-store.png" class="header__app-img">
+                                </a>
+                                <a href="#" class="header__app-link">
+                                    <img src="./assets/img/qr/gg-play.png" class="header__app-img">
+                                </a>
+                                <a href="#" class="header__app-link">
+                                    <img src="./assets/img/qr/app-gallery.png" class="header__app-img">
+                                </a>
+                                <a href="#" class="header__app-link">
+                                    <img src="./assets/img/qr/ltp-img.png" class="header__app-img">
+                                </a>
+                            </div>
+                        </div>
+                        <li class="header__nav-item">
+                            Kết nối
+                            <a href="#" class="header__nav-icon-link">
+                                <i class="header__nav-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="header__nav-icon-link">
+                                <i class="header__nav-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item header__show-note">
+                            <a href="#" class="header__nav-item-link">
+                                <i class="header__nav-icon far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <!-- thông báo -->
+                            <div class="header__notifi">
+                                <header class="header__notifi-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <ul class="header__notifi-list">
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/casio.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Casio fx 580 VN Plus
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    Mua Casio 580 của LTP bao xịn, bao mượt, bao đẹp
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/iphone.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Điện Thoại iPhone 13 Pro 128GB - Hàng Nhập Khẩu
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    3 Camera: Ống kính góc rộng f/1.5 - Tele f/2.8 - Siêu rộng f/1.8
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/iphone2.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Apple iPhone 12 Pro Max 128GB
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    iPhone 12 Pro Max. Màn hình Super Retina XDR 6.7 inch
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/laptop.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Laptop HP 650 g1 siêu khỏe bền
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    Laptop siêu bền, HP 650 g1 siêu khỏe bền ssd 120gb 15,6inh FULL HD
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="#" class="header__notifi-link">
+                                            <img src="./assets/img/sp/laptop2.png" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <div class="header__notifi-name">
+                                                    Laptop thinkpad x240 chất mỏng nhẹ i5 4300u Ram 4gb Ssd 128gb
+                                                </div>
+                                                <div class="header__notifi-desc">
+                                                    HP 650 g1 chip M đời 4, cpu i5 4200M ram 4gb -8gb
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notifi-footer">
+                                    <a href="#" class="header__notifi-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">
+                                <i class="header__nav-icon far fa-question-circle"></i>
+                                Hỗ trợ
+                            </a>
+                        </li>
+                        
+                        <!-- <li class="header__nav-item header__nav-item--bold header__nav-item--separate">
+                            <a href="./Signin.html" class="header__nav-item-link">Đăng ký</a>
+                        </li>
+                        <li class="header__nav-item header__nav-item--bold">
+                            <a href="./Login.html" class="header__nav-item-link">Đăng nhập</a>
+                        </li> -->
+
+                         <li class="header__nav-item header__nav-user">
+                            <img src="./assets/img/user.png" class="header__nav-user-avt">
+                            <a href="#" class="header__nav-item-link header__nav-item--bold">Lục Thiên Phong</a>
+                            <ul class="header__nav-user-menu">
+                                <li class="header__nav-user-item">
+                                    <a href="#">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__nav-user-item">
+                                    <a href="#">Đơn mua</a>
+                                </li>
+                                <li class="header__nav-user-item">
+                                    <a href="#">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li> 
+                    </ul>
+                </nav>
+                <!-- search -->
+                <div class="header__contain">
+                    <label for="mobile-search" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+                    <div class="header__logo">
+                        <a href="./index.html" class="header__logo-link">
+                            <img src="./assets/img/logo/logo-full-white.png" class="header__logo-img">
+                        </a>
+                    </div>
+                    <input type="checkbox" id="mobile-search" class="header__search-check" hidden>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm trên Shepo">
+                            <div class="header__search-history">
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="#">Áo thun nam</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Bánh quy</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Mỹ phẩm cho nam</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Iphone 13 Pro Max giá rẻ</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Khô gà</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="btn header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- header__cart--no-cart --><!-- header__cart--has-cart -->
+                    <div class="header__cart header__cart--has-cart">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        <div class="header__cart-count">3</div>
+                        
+                        <div class="header__cart-list no-cart">
+                            <img src="./assets/img/sp/no-cart.png" class="header__no-cart-img">
+                            <p class="header__no-cart-text">Chưa có sản phẩm</p>
+                        </div>
+                        
+                        <div class="header__cart-list has-cart">
+                            <h4 class="header__cart-heading">Sản phẩm đã chọn</h4>
+                            <ul class="header__cart-list-item">
+                                <li class="header__cart-item">
+                                    <img src="./assets/img/buy/1.PNG" class="header__cart-item-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Logitech G Pro Wireless Superlight</h3>
+                                            <p class="header__cart-item-price">2.000.000đ</p>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 2</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="./assets/img/buy/2.PNG" class="header__cart-item-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Iphone 11 64GB</h3>
+                                            <p class="header__cart-item-price">12.500.000đ</p>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 1</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="./assets/img/buy/3.PNG" class="header__cart-item-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-heading">
+                                            <h3 class="header__cart-item-name">Iphone 11 Pro Max 256GB</h3>
+                                            <p class="header__cart-item-price">15.800.000đ</p>
+                                        </div>  
+                                        <div class="header__cart-item-body">
+                                            <p class="header__cart-item-number">x 1</p>
+                                            <div class="header__cart-item-close">
+                                                Xoá
+                                                <i class="fas fa-times"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="header__cart-footer">
+                                <a href="#" class="btn btn--primary header__cart-see-cart">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="#" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+        <!--Container-->
+        <div class="container-product-site">
+            <div class="grid wide">
+                <div class="row sm-gutter">
+                    <div class="col l-12">
+                        <div class="product-site-cost">
+                            <div class="product-site-image">
+                                <img src="https://cdn1.viettelstore.vn/images/Product/ProductImage/medium/452166194.jpeg" alt="" class="product-site-infor-of-product">
+                                <div class="product-site-list-img-product">
+                                    <img src="https://phongapple.vn/wp-content/uploads/2021/10/13tr.png" alt="" class="product-site-list-img-product-mini">
+                                    <img src="https://product.hstatic.net/1000063620/product/iphone-13-pro-max-green_d31c599a9e6c4d34a1e7ee67c03faa8a_1024x1024.jpg" alt="" class="product-site-list-img-product-mini">
+                                    <img src="https://product.hstatic.net/1000063620/product/iphone-13-pro-max-green_d31c599a9e6c4d34a1e7ee67c03faa8a_1024x1024.jpg" alt="" class="product-site-list-img-product-mini">
+                                    <img src="https://product.hstatic.net/1000063620/product/iphone-13-pro-max-green_d31c599a9e6c4d34a1e7ee67c03faa8a_1024x1024.jpg" alt="" class="product-site-list-img-product-mini">
+                                    <img src="https://images.fixjeiphone.nl/wp-content/uploads/2022/09/Refurbished-iPhone-13-mini-5.png" alt="" class="product-site-list-img-product-mini">
+                                </div>
+                                <div class="product-site-list-img-product-footer">
+                                    <div class="product-site-list-img-product-share product-site-list-img-product-share--separate">
+                                        <div class="product-site-list-img-product-share-title">Chia sẻ:</div> 
+                                        <a href="" class="product-site--list-share"><i class="fa-brands fa-facebook-messenger product-site-list-img-product-share-icon product-site-list-img-product-share-icon-mess"></i></a>
+                                        <a href="" class="product-site--list-share"><i class="fa-brands fa-facebook product-site-list-img-product-share-icon product-site-list-img-product-share-icon-facebook"></i></a>
+                                        <a href="" class="product-site--list-share"><i class="fa-brands fa-pinterest product-site-list-img-product-share-icon product-site-list-img-product-share-icon-printerest"></i></a>
+                                    </div>
+                                    <div class="product-site-list-img-product-love">
+                                        <div class=""><i class="fa-solid fa-heart product-site-list-img-product-love-icon"></i></div>
+                                        <div class="product-site-list-img-product-love-title">Đã thích (2,2k)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-site-buy">
+                                <span class="product-site-buy-title--span">Apple iPhone 13 128GB</span>
+                            </div>
+                        </div>
+                        <div class="product-site-shop"></div>
+                        <div class="product-site-infor"></div>
+                        <div class="product-site-rate"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- main footer -->
+            <div class="main-footer">
+                <div class="grid wide">
+                    <div class="row sm-gutter main-footer-info">
+                        <div class="col l-2-4 m-4 ">
+                            <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                            <ul class="footer-list">
+                                <li>
+                                    <a href="#" class="footer-item-link">Trung Tâm Trợ Giúp</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Hướng Dẫn Mua Hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Hướng Dẫn Bán Hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Thanh Toán</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Vận Chuyển</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Trả Hàng & Hoàn Tiền</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Chăm Sóc Khách Hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Chính Sách Bảo Mật</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 ">
+                            <h3 class="footer__heading">VỀ SHOPEE</h3>
+                            <ul class="footer-list">
+                                <li>
+                                    <a href="#" class="footer-item-link">Giới Thiệu Về Shepo</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Tuyển Dụng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Điều Khoản Shepo</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Chính Sách Bảo Mật</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Kênh Người Bán</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link">Liên Hệ Với Truyền Thông</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4  pay-and-ship">
+                            <div>
+                                <h3 class="footer__heading">THANH TOÁN</h3>
+                                <div class="footer-sale-ship">
+                                    <img src="./assets/img/pay/1.PNG" class="footer-item-sale-ship">
+                                    <img src="./assets/img/pay/2.PNG" class="footer-item-sale-ship">
+                                    <img src="./assets/img/pay/3.PNG" class="footer-item-sale-ship">
+                                    <img src="./assets/img/pay/4.PNG" class="footer-item-sale-ship">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 ">
+                            <h3 class="footer__heading">THEO DÕI CHÚNG TÔI</h3>
+                            <ul class="footer-list">
+                                <li>
+                                    <a href="#" class="footer-item-link footer-item-link-fb">
+                                        <i class="footer-item-icon fa-brands fa-facebook"></i>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link footer-item-link-is">
+                                        <i class="footer-item-icon fab fa-instagram-square"></i>
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-item-link footer-item-link-li">
+                                        <i class="footer-item-icon fa-brands fa-linkedin"></i>
+                                        LinkedIn
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-8 ">
+                            <h3 class="footer__heading">TẢI ỨNG DỤNG SHEPO</h3>
+                            <div class="footer-download">
+                                <a href="#" class="footer-download-link">
+                                    <img src="./assets/img/qr/qr-code.png" class="footer-download-qr">
+                                </a>
+                                <div class="footer-download-app">
+                                    <a href="#" class="footer-download-link">
+                                        <img src="./assets/img/qr/gg-play.png" class="footer-download-app-img">
+                                    </a>
+                                    <a href="#" class="footer-download-link">
+                                        <img src="./assets/img/qr/app-store.png" class="footer-download-app-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

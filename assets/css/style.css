@@ -302,7 +302,7 @@ border-color: red green blue yellow */
     background-color: var(--primary-color);
     padding: 0;
 }
-.auth-form{
+.auth-form {
     width: 400px;
     background-color: var(--white-color);
     border-radius: 2px;
@@ -1675,4 +1675,99 @@ border-color: red green blue yellow */
     display: flex;
     font-size: 14px;
     padding-bottom: 12px;
+}
+/* Product-site */
+.container-product-site{
+    background-color: var(--contain-color);
+    
+}
+.product-site-cost{
+    background-color: var(--white-color);
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--chatbot-gray-7);
+    display: inline-flex;
+}
+.product-site-image{
+    width: 40%;
+    padding: 15px;
+}
+.product-site-infor-of-product{
+    width: 450px;
+    height: 450px;
+    background-color: var(--contain-color);
+}
+.product-site-list-img-product{
+    display: inline-flex;
+}
+.product-site-list-img-product-mini{
+    width: 92px;
+    height: 92px;
+    padding: 5px;
+}
+.product-site-list-img-product-footer{
+    display: inline-flex;
+    align-items: center;
+}
+.product-site-list-img-product-share{
+    padding: 0 30px;
+    min-width: 60%;
+    display: inline-flex;
+    align-items: center;
+}
+.product-site-list-img-product-share-title{
+    font-size: 16px;
+    color: var(--black-color);
+    text-decoration: none;
+    width: 60px;
+}
+
+.product-site-list-img-product-share-icon{
+    font-size: 25px;
+    margin: 0 0 0 5px;
+    
+}
+.product-site-list-img-product-share-icon-mess{
+    color: #3333FF;
+}
+.product-site-list-img-product-share-icon-facebook{
+    color: #4267b2;
+}
+.product-site-list-img-product-share-icon-printerest{
+    color: #FF0033;
+}
+
+.product-site-list-img-product-share--separate{
+    border-right: 1px solid var(--chatbot-gray-5);
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.product-site-list-img-product-love{
+    padding: 0 30px;
+}
+.product-site-list-img-product-love-title{
+    font-size: 16px;
+    color: var(--black-color);
+}
+.product-site-list-img-product-love{
+    padding: 0 30px;
+    min-width: 70%;
+    display: inline-flex;
+    align-items: center;
+}
+.product-site-list-img-product-love-icon{
+    margin: 0 10px 0 0;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.product-site-buy{
+    width: 50%;
+    padding: 20px 35px 0 20px;
+}
+.product-site-buy-title--span{
+    font-size: 20px;
+    font-weight: 10%;
+    color: var(--black-color);
 }
