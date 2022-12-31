@@ -202,6 +202,44 @@ html {
     align-items: center;
     justify-content: center;
 }
+.btn-mini-1{
+    min-width: 115px;
+    height: 34px;
+    text-decoration: none;
+    border: 1px solid var(--chatbot-gray-3);
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin: 0 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-mini-color{
+    color: var(--primary-color);
+    background-color: var(--contain-color);
+}
+.btn-mini-2{
+    min-width: 115px;
+    height: 34px;
+    text-decoration: none;
+    border: 1px solid var(--chatbot-gray-3);
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin: 0 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 /* pagination */
 
 .pagination {
