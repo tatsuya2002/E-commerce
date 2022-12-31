@@ -297,7 +297,7 @@ html {
     margin-top: 16px;
 }
 .payment-btn{
-    min-width: 5%;
+    min-width: 15%;
     height: 40px;
     text-decoration: none;
     border: none;
@@ -312,7 +312,7 @@ html {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 12px;
     margin-bottom: 20px;
-    margin-left: 91%;
+    margin-left: 81%;
 }
