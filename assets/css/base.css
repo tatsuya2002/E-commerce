@@ -131,7 +131,35 @@ html {
     color: var(--white-color);
     background-color: var(--light-btn-primary-color);
 }
-
+.btn-addtocart{
+    min-width: 215px;
+    padding: 0 20px;
+}
+.btn-product-site{
+    min-width: 120px;
+    height: 48px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin: 0 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-product-site.btn--primary-product-site{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-size: 16px;
+}
+.btn-product-site.btn--primary-product-site:hover{
+    background-color: #f05d40;
+}
 .btn.btn-signin {
     height: 40px;
     font-size: 1.4rem;
