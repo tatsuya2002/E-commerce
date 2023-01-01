@@ -2020,7 +2020,7 @@ border-color: red green blue yellow */
     width: 100%;
     height: 50px;
     margin-bottom: 80px;
-    border-bottom: 1px solid var(--chatbot-gray-7);
+  
 
 }
 .product-site-option-add-to-cart{
@@ -2037,6 +2037,36 @@ border-color: red green blue yellow */
 .product-site-option-addtocart-title{
     font-size: 16px;
     color: var(--primary-color);
+}
+
+.product-site-add-success{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: var(--chatbot-gray-3);
+    border: 1px solid var(--chatbot-gray-3);
+    border-radius: 2px;
+    z-index: 2;
+    margin-top: 200px;
+    margin-left: 500px; 
+    
+}
+
+.product-site-add-success-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+.product-site-add-success-icon{
+    font-size: 60px;
+    color: #00FA9A;
+}
+.product-site-add-success-title{
+    font-size: 16px;
+    color: var(--white-color);
+    margin-top: 12px;
 }
 .product-site-shop{
     width: 100%;
