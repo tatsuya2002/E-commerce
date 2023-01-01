@@ -1742,11 +1742,101 @@ border-color: red green blue yellow */
     font-size: 14px;
     padding-bottom: 12px;
 }
+/*Payment address auth form*/
+.address-authen-form{
+    margin: 12px;
+    width: 600px;
+}
+.address-authen-form__group{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.address-authen-form__header--separate{
+    border-bottom: 1px solid var(--chatbot-gray-5);
+    margin-bottom: 12px;
+}
+.address-authen-form__group--checkbox{
+    margin-bottom: 18px;
+}
+.address-authen-form__group-container{
+    display: inline-block;
+}
+.address-authen-form__group-container-header{
+    display: inline-flex;
+}
+.address-authen-form__group-container-name{
+    font-size: 16px;
+    color: var(--black-color);
+    margin-left: 12px;
+    padding-right: 12px;
+}
+.address-authen-form__group-container-name--separate{
+    border-right: 1px solid var(--chatbot-gray-5);
+    
+}
+.address-authen-form__group-container-phone{
+    font-size: 14px;
+    color: var(--chatbot-gray-3);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.address-authen-form__group-address{
+    font-size: 14px;
+    color: var(--chatbot-gray-3);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.address-authen-form__group-new-address{
+    min-width: 200px;
+    min-height: 40px;
+    font-size: 14px;
+    border: 1px solid var(--chatbot-gray-5);
+}
+.address-authen-form__group-new-address{
+    margin-bottom: 60px;
+}
+.address-authen-form__footer--separate{
+    border-top: 1px solid var(--chatbot-gray-5);
+    width: 100%;
+    padding-top: 20px;
+}
+.address-authen-form__footer{
+    display: inline-flex;
+    margin-bottom: 12px;
+    
+}
+.address-authen-footer-button-cancel{
+    height: 30px;
+    width: 100px;
+    background-color: var(--contain-color);
+    margin-right: 12px;
+    border-radius: 2px;
+    border: 1px solid var(--chatbot-gray-5);
+    font-size: 14px;
+}
+.address-authen-footer-button-cancel:hover{
+    cursor: pointer;
+}
+.address-authen-footer-button-confirm{
+    width: 100px;
+    height: 30px;
+    background-color: var(--light-btn-primary-color);
+    border-radius: 2px;
+    border: 1px solid var(--chatbot-gray-5);
+    font-size: 14px;
+    color: var(--white-color);
+}
+.address-authen-footer-button-confirm:hover{
+    cursor: pointer;
+}
 /* Product-site */
 .container-product-site{
     background-color: var(--contain-color);
     
 }
+
 .product-site-cost{
     background-color: var(--white-color);
     width: 100%;
