@@ -1387,6 +1387,16 @@ border-color: red green blue yellow */
     font-size: 14px;
     padding-right: 120px;
 }
+.logo-sigin{
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.logo-login{
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 40px;
+}
 /* Cart */
 .container-cart{
     background-color: var(--contain-color);
