@@ -2592,8 +2592,85 @@ border-color: red green blue yellow */
     font-size: 18px;
     margin: 0 0 8px;
 }
+.container-address-group{
+    padding: 18px 0 20px;
+}
+.container-address-group-body{
+    width: 100%;
+   
+}
+.container-address-group-body-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.container-address-group-body-name{
+    font-size: 14px;
+    margin-left: 0;
+}
+.container-address-group-body-name--separate{
+    border-right: 1px solid var(--chatbot-gray-5);
+    margin-right: 12px;
+    width: 120px;
+}
+.container-address-group-body-phone{
+    font-size: 14px;
+    color: var(--chatbot-gray-3);
+    width: 120px;
+}
+.container-address-group-body-upadte{
+    font-size: 14px;
+    color: var(--blue-color);
+    text-decoration: none;
 
+}
+.container-address-group-body-delete{
+    font-size: 14px;
+    color: var(--blue-color);
+    text-decoration: none;
+    margin-left: 12px;
+}
 .container-address-group-body-footer{
     margin: 0 0 4px;
     padding: 2px 4px;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+    width: 75px;
+    font-size: 14px;
+    justify-content: center;
+    color: var(--primary-color);
+}
+.container-address-group-body-footer-extra{
+    margin: 0 0 4px;
+    padding: 2px 4px;
+    border: 1px solid var(--chatbot-gray-3);
+    border-radius: 2px;
+    width: 130px;
+    font-size: 14px;
+    justify-content: center;
+    color: var(--chatbot-gray-3);
+}
+.container-address-group-body-footer-title{
+    margin-left: 4px;
+}
+.container-address-group-body-container-address-group-footer--separateleft{
+    display: flex;
+}
+.container-address-group-body-infor{
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.container-address-group-body-infor-address{
+    color: var(--chatbot-gray-3);
+    font-size: 14px;
+}
+.container-address-group-footer--separate{
+    border-bottom: 1px solid var(--chatbot-gray-7);
+    margin-top: 30px;
+    
+}
+.container-address-group-footer--separate-extra{
+    border-bottom: 1px solid var(--chatbot-gray-7);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
